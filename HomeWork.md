@@ -33,13 +33,62 @@
 ### 1. Hãy lập trình Java để thực hiện thiết kế như hình vẽ
 https://github.com/itachibk/05OOP/tree/main/jungle/src/main/java/graphiceditor/after
 
-### 2. Composition over Inheritance và DI
-Gõ link đến mã nguồn bài này vào đây
-
-
 ## Phần 3: Thiết kế CSDL Quan hệ theo đặc tả
+CREATE TABLE user (
+   user_id INTEGER PRIMARY KEY,
+   email VARCHAR(1000) NOT NULL,
+   pasword INTEGER NOT NULL
+)
+CREATE TABLE teacher (
+   user_id INTEGER PRIMARY KEY,
+   phone INTEGER NOT NULL,
+   experiences INTEGER NOT NULL
+)
+CREATE TABLE course (
+   name VARCHAR(100) NOT NULL,
+   description VARCHAR(1000) NOT NULL,
+   location VARCHAR(200) NOT NULL,
+   opened DATETIME
+)
+CREATE TABLE student (
+   user_id INTEGER PRIMARY KEY,
+   year DATETIME
+)
+CREATE TABLE enroll (
+   user_id INTEGER PRIMARY KEY,
+   name VARCHAR(100) NOT NULL
+)
 
 ## Phần 4: Thiết kế RESTful API
+Chưa tìm hiểu  được spring boot nên bỏ qua
 
 ## Phần 5: Lập trình Restful API
+Chưa tìm hiểu  được spring boot nên bỏ qua
+
+## Phần 6: Trắc nghiệm
+         1.C
+         2.B
+         3.D
+         4.C
+         5.A
+         6.A
+         7.A
+         8.A
+         9.B
+         10.A
+         11.D
+         12.C
+         13.B
+         14.B
+         15.C
+         16.B
+         17.D
+         18.A
+         19.C
+         20.B
+         21.A
+         22.B
+         23.A
+         24.B
+         25.A
 
